@@ -1,0 +1,72 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ div {
+  width:40%;
+  
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+ }
+ input[type=text],input[type=email],input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+ 
+ input[type=submit] {
+  width: 50%;
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+
+  input[type=submit]:hover {
+  background-color: #45a049 ;
+  }
+  
+  body{
+  background-color:#FFDAB9;
+  }
+
+ </style>
+</head>
+<body>
+ <div>
+ <h2>LOGIN</h2>
+ <form action="login.php" method="POST">
+   <!-- <label for="role">Role:</label> -->
+   <!-- <select name="role">
+    <option value='customer'>customer</option>
+    <option value='service provider'>service provider</option>
+   </select><br> -->
+   <!-- <input type="radio" value='customer'name='role'>customer -->
+   <!-- <input type="radio" value='service provider' name='role'>service provider<br> -->
+   
+
+   <br>
+   <label for="email">Email:</label>
+   <input type="email" name="email" required><br>
+   <label for="password">Password:</label>
+   <input type="password" name="password" required>
+   <input type="submit" name="call" value="LOGIN">
+   <a href='registration.html'>New user?SIGNUP</a>
+ </form>
+ 
+</div>
+</body>
+</html>

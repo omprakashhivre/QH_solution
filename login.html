@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ div { 
+  color :black;
+  width:30%;
+  
+  border-radius: 5px;
+ /* background-color: #f2f2f2;*/
+/*  background: rgb(0, 0, 0); /* Fallback color */
+ background: rgba(0, 0, 0, 0);  Black background with 0.5 opacity 
+  padding: 11px;
+  margin: auto;
+ }
+ input[type=text],input[type=email],input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+ 
+ input[type=submit] {
+  width: 50%;
+  
+   background-color: #4CAF50;
+  color: white;
+  padding: 14px 12px;
+  margin: 6px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+
+  input[type=submit]:hover {
+  background-color: #45a049  ;
+  
+  }
+  
+  body{
+  background-image:url("welcome.jpg");
+   background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .button {
+ background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 12px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 6px 0px;
+  cursor: pointer;
+}
+.button3 {border-radius: 4px;}
+.button3:hover {
+  background-color: #45a049 ;
+  }
+
+
+
+ </style>
+</head>
+<body>
+ <div>
+<h1 style="color:rgb(59, 34, 34)">Welcome   Quick Home solution</h1>
+ <h2>Please login first to get access our Services</h2>
+ <form action="login.php" method="POST">
+   <!-- <label for="role">Role:</label> -->
+   <!-- <select name="role">
+    <option value='customer'>customer</option>
+    <option value='service provider'>service provider</option>
+   </select><br> -->
+   <!-- <input type="radio" value='customer'name='role'>customer -->
+   <!-- <input type="radio" value='service provider' name='role'>service provider<br> -->
+   
+
+   
+   <label for="email"><b>Username</b></label>
+   <input type="email" autocomplete="off" name="email" placeholder ="Enter your registered email"required><br>
+   <label for="password"><b>Password</b></label>
+   <input type="password" name="password" placeholder ="Enter your password" required>
+   <input type="submit" name="call" value="LOGIN">
+  </form>
+     <a href='signup_who.html'><button type="submit" class="button button3">Sign up</button></a> 
+</div>
+</body>
+</html>
